@@ -1,0 +1,477 @@
+.hero-section-col {
+  width: 50%;
+}
+
+.home-wrapper {
+  font-family: "Raleway", sans-serif;
+  /* background-color: red; */
+}
+
+.hero-section {
+  background-color: #ffffff;
+}
+
+.hero-section-row {
+  width: 90%;
+  padding-top: 5%;
+  padding-bottom: 3%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero-sec-card {
+  background: transparent;
+  border: none;
+  width: 90%;
+  margin-top: 10%;
+  margin-left: 5%;
+  color: rgb(29, 28, 28);
+  text-align: left;
+}
+
+.hero-sec-card-body {
+  border: none;
+}
+
+.hero-sec-card-body>h1 {
+  font-size: 3rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.hero-sec-card-body>h4 {
+  margin-top: 20px;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+.hero-sec-card-foot {
+  background: transparent;
+  border: none;
+}
+
+.hero-sec-img-card {
+  background: transparent;
+  border: none;
+  width: 100%;
+  margin-left: 3%;
+  margin-top: 4%;
+}
+
+.get-start-btn {
+  padding: 15px;
+  border-radius: 3px;
+  background-color: #fdd900;
+  color: #000100;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.learn-btn {
+  margin-left: 20px;
+  padding: 15px;
+  border-radius: 3px;
+  background-color: #ececec;
+  color: #000100;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.mission-box-one-img{
+  width: 120px;
+}
+
+.hero-img-card-body {
+  width: 100%;
+}
+
+.hero-img-card-foot {
+  background: transparent;
+  border: 1px solid black;
+}
+
+.hero-sec-img {
+  width: 98%;
+}
+
+.hero-sec-card-body>h5 {
+  margin-top: -15px;
+  color: #353535;
+}
+
+.hero-sec-card-body>h6 {
+  margin-top: 30px;
+}
+
+/* total donation sec */
+
+.scroll-row {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.scroll-container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 33px;
+  height: 60px;
+  border: 2px solid #131313;
+  border-radius: 15px;
+  position: relative;
+}
+
+.scroller {
+  width: 6px;
+  border-radius: 8px;
+  background-color: #131313;
+  position: absolute;
+  top: 4px;
+  left: 11px;
+  bottom: 25px;
+  animation: scroller 1500ms ease-out infinite;
+}
+
+.cloud-icon-one {
+  font-size: 200px;
+}
+.cloud-icon-two {
+  font-size: 200px;
+  /* float: right;
+  margin-right: 20px;
+  text-align: right;
+  width: 80px; */
+}
+@keyframes scroller {
+  0% {
+    bottom: 34px;
+  }
+  5% {
+    top: 4px;
+  }
+  32% {
+    bottom: 4px;
+  }
+  66% {
+    top: 34px;
+    bottom: 4px;
+  }
+  100% {
+    top: 4px;
+    bottom: 34px;
+  }
+}
+
+/* home responsive */
+
+@media (min-width: 200px) and (max-width: 500px) {
+  .hero-section-row {
+    width: 100%;
+  }
+  .wrapper {
+    /* background-color: yellow; */
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
+  .hero-section-row {
+    margin: 0px;
+    padding: 0px;
+  }
+  .hero-section-col {
+    /* background-color: purple; */
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
+  .hero-sec-img {
+    width: 100%;
+  }
+  .hero-sec-card {
+    /* margin: 0px; */
+    margin: 10px;
+    padding: 0px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .hero-sec-card-body {
+    width: 100%;
+    /* background-color: red; */
+    margin: 0px;
+    padding: 0px;
+  }
+  .hero-sec-card-body>h1 {
+    font-size: 1.4rem;
+  }
+  .hero-sec-card-body>h4 {
+    font-size: 14px;
+  }
+  .hero-sec-card-foot {
+    width: 80%;
+    /* background-color: red; */
+    /* margin-top: 5%; */
+    margin: 20px 0px 0px 0px;
+    padding: 0px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .hero-sec-card-foot>.get-start-btn {
+    padding: 5px 10px;
+    border-radius: 2px;
+    background-color: #fdd900;
+    color: #000100;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .learn-btn {
+    margin-left: 5%;
+    padding: 5px 10px;
+    border-radius: 2px;
+    background-color: #ececec;
+    color: #000100;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .scroll-row {
+    display: none;
+  }
+}
+
+/* mission section */
+
+.mission-section {
+  background-color: #391a99;
+  margin-top: 1%;
+  padding-top: 4%;
+  width: 100%;
+  padding: 2px;
+  height: auto;
+}
+
+.mission-row {
+  width: 90%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3%;
+  margin-bottom: 1%;
+}
+
+.mission-col {
+  margin-top: 7%;
+  margin-bottom: 5%;
+  height: 100%;
+}
+
+.mission-col-one {
+  padding: 0px;
+  width: 20%;
+}
+
+.cloud-icon-col-one {
+  margin-top: 36%;
+  height: 100%;
+  color: white;
+  opacity: 100%;
+}
+
+.cloud-icon-col-two {
+  padding: 0px;
+  margin-top: 5%;
+  color: white;
+}
+
+.mission-card {
+  margin-top: 10%;
+  border: none;
+  background: transparent;
+  background-repeat: no-repeat;
+}
+
+.mission-card-head {
+  border: none;
+  background-color: #391a99;
+}
+
+.mission-card-head>button {
+  margin-left: 15px;
+  float: left;
+  padding: 8px 20px 8px 20px;
+  background-color: #42299e;
+  border-radius: 20px;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+.mission-card-body {
+  padding-top: 5%;
+  background-color: #391b99;
+  color: #ffffff;
+  text-align: left;
+}
+
+.mission-text {
+  font-size: 3rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.mission-card-body>h6 {
+  margin-top: 5%;
+  font-family: "Poppins", sans-serif;
+  font: 16px;
+}
+
+.mission-card-footer {
+  background: transparent;
+  border: none;
+}
+
+.donate-now-btn {
+  padding: 15px;
+  float: left;
+  border-radius: 6px;
+  background-color: #fdd900;
+  color: #000100;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.donate-now-btn:hover {
+  background-color: #e4c202;
+}
+
+/* mission box */
+
+.mission-box {
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: #42299e;
+  color: #ffffff;
+  width: 220px;
+  height: 260px;
+}
+
+
+.mission-box-wrap {
+  padding: 0px;
+  margin: 0px;
+}
+
+.mission-box-row {
+  margin: 6px;
+  padding: 0px;
+}
+
+.mission-box-row-two {
+  margin-top: 4%;
+  margin-left: 5%;
+}
+
+.mission-box-col {
+  padding: 0px;
+  margin: 0px;
+}
+
+.mission-box-footer {
+  border-radius: 10px;
+  text-align: left;
+  padding-left: 12%;
+  border: none;
+  font-family: "Poppins", sans-serif;
+  background-color: #42299e;
+}
+
+.mission-box-footer>h6 {
+  color: #fdd900;
+}
+
+/* responsive */
+
+@media (min-width: 200px) and (max-width: 500px) {
+  .mission-row {
+    margin: 0px;
+    width: 100%;
+    padding: 0px;
+  }
+  .cloud-icon-one {
+    font-size: 50px;
+    width: 80px;
+  }
+  .cloud-icon-two {
+    font-size: 50px;
+    float: right;
+    margin-right: 20px;
+    text-align: right;
+    width: 80px;
+  }
+  .mission-text {
+    font-size: 22px;
+  }
+  .mission-col {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    height: auto;
+  }
+  .mission-card {
+    margin-top: 0%;
+    border: none;
+    background: transparent;
+    background-repeat: no-repeat;
+  }
+  .mission-card-body>h6 {
+    margin-top: 5%;
+    font-family: "Raleway", sans-serif;
+    font: 14px;
+  }
+  .donate-now-btn {
+    padding: 5px 10px;
+    float: left;
+    border-radius: 6px;
+    background-color: #fdd900;
+    color: #000100;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .mission-box {
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: #42299e;
+    color: #ffffff;
+    width:90%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .mission-box-one-img{
+    width: 50px;
+  }
+
+  .mission-box-footer>h5{
+    font-size: 16px;
+  }
+  .mission-box-footer>h6{
+    font-size: 14px;
+  }
+  .mission-box-wrap {
+    padding: 10px;
+    margin: 0px;
+  }
+  
+  .mission-box-row {
+    margin: 6px;
+    padding: 0px;
+    width: 100%;
+    margin-top: 10px;
+    padding: 0px;
+  }
+  
+  .mission-box-row-two {
+    margin: 6px;
+    padding: 0px;
+    width: 100%;
+    margin-top: 16px;
+    padding: 0px;
+  }
+}

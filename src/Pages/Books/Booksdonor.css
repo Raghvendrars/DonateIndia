@@ -1,0 +1,266 @@
+.Menu-main-btn {
+  width: 200px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  border: none;
+  background-color: #ffffff;
+  color: #140101;
+  font-family: "Poppins", sans-serif;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding-top: 3%;
+}
+
+.Menu-Wrap {
+  padding-top: 5%;
+  width: 100%;
+}
+
+.Blood-menu-row {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+.Blood-menu-col {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  border-left: 2px solid #060706;
+}
+
+.Menu-main-btn>a {
+  text-decoration: none;
+  list-style-type: none;
+  color: #131313;
+}
+
+.Menu-main-btn:hover {
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.Menu-Wrap-row {
+  width: 50%;
+  margin-top: 3%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Register-card {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.Register-card-body {
+  text-align: left;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Blood-btn-tagline {
+  width: auto;
+  margin-left: 27%;
+  text-align: center;
+}
+
+.back-menu-btn {
+  float: left;
+  width: 80px;
+  height: 40px;
+  color: #edf6f9;
+  background-color: #26363b;
+}
+
+.Register-card-header {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  text-align: center;
+}
+
+.Blood-form-input-half {
+  display: flex;
+  width: 100%;
+}
+
+.input-half-div {
+  width: 49%;
+}
+
+.see-vol-btn {
+  width: 95%;
+  margin-bottom: 10px;
+  align-items: center;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #010101;
+  padding: 5px 10px;
+  background-color: #1a2e35;
+}
+
+.see-vol-btn:hover {
+  text-decoration: none;
+  color: #ffd2d2;
+}
+
+.Register-submit-btn {
+  background-color: #1a2e35;
+  width: 49%;
+  color: #edf6f9;
+  border: none;
+}
+
+/* .form-control {
+  margin-top: -1%;
+  border: 1px solid #26363b;
+  color: #070000;
+} */
+
+/* done */
+
+.Blood-img-col {
+  margin-top: 0%;
+  height: 100%;
+}
+
+.Blood-img-col>img {
+  width: 700px;
+}
+
+.blood-all-icons>img {
+  width: 90px;
+}
+
+@media (min-width: 200px) and (max-width: 400px) {
+  .Blood-img-col>img {
+    width: 350px;
+  }
+  .Blood-menu-col {
+    border-left: none;
+  }
+  /* done */
+  .Menu-Wrap {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
+  .Menu-Wrap-row {
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .Menu-main-btn {
+    width: 150px;
+    height: 150px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 10px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+  .Menu-main-btn>h4 {
+    font-size: 16px;
+  }
+  .blood-all-icons>img {
+    width: 60px;
+    margin-top: 10px;
+  }
+  .Register-card {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  .back-menu-btn {
+    float: left;
+    width: 80px;
+    height: 40px;
+    color: #edf6f9;
+    background-color: #26363b;
+  }
+  .Blood-btn-tagline {
+    width: auto;
+    margin-left: 17%;
+    font-size: 22px;
+    text-align: center;
+  }
+  .Register-submit-btn {
+    background-color: #1a2e35;
+    width: 48%;
+    color: #edf6f9;
+    border: none;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 900px) {
+  .Blood-img-col>img {
+    width: 350px;
+  }
+  .Blood-menu-col {
+    border-left: none;
+  }
+  /* done */
+  .Menu-Wrap {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
+  .Menu-Wrap-row {
+    width: 90%;
+    margin-top: 8%;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .Menu-main-btn {
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .Menu-main-btn>h4 {
+    font-size: 16px;
+  }
+  .blood-all-icons>img {
+    width: 60px;
+    margin-top: 10px;
+  }
+  .Register-card {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  .back-menu-btn {
+    float: left;
+    width: 80px;
+    height: 40px;
+    color: #edf6f9;
+    background-color: #26363b;
+  }
+  .Blood-btn-tagline {
+    width: auto;
+    margin-left: 17%;
+    font-size: 22px;
+    text-align: center;
+  }
+  .Register-submit-btn {
+    background-color: #1a2e35;
+    width: 48%;
+    color: #edf6f9;
+    border: none;
+  }
+}
