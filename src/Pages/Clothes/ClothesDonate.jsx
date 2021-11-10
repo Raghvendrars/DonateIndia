@@ -106,7 +106,7 @@ const Clothesdonor = () => {
           {foodmenu ? (
             <div className="Menu-Wrap">
               <div className="Menu-Wrap-row row">
-                <div className="Menu-col col">
+                <div className="Menu-col col-xl-6 xol-sm-12">
                   <button onClick={showDonor} className="Menu-main-btn">
                     <h1 className="blood-all-icons">
                       <img src={Clothes} width="100" />
@@ -114,7 +114,7 @@ const Clothesdonor = () => {
                     <h4 className="mt-3">I'm Donor</h4>
                   </button>
                 </div>
-                <div className="Manu-col col">
+                <div className="Manu-col col-xl-6 xol-sm-12">
                   <a href="/clothes/clothesdonate/findclothes">
                     <button className="Menu-main-btn">
                       <h1 className="blood-all-icons">
@@ -126,7 +126,7 @@ const Clothesdonor = () => {
                 </div>
               </div>
               <div className="Menu-Wrap-row row">
-                <div className="Manu-col col">
+                <div className="Manu-col col-xl-6 xol-sm-12">
                   <button onClick={regiRest} className="Menu-main-btn">
                     <h1 className="blood-all-icons">
                       {/* <img src={Foodimgthree} width="100" /> */}
@@ -135,7 +135,7 @@ const Clothesdonor = () => {
                     <h4 className="mt-3">Organization</h4>
                   </button>
                 </div>
-                <div className="Manu-col col">
+                <div className="Manu-col col-xl-6 xol-sm-12">
                   <button onClick={regiVolunteer} className="Menu-main-btn">
                     <h1 className="blood-all-icons">
                       <img src={Foodimgfour} alt="image" />

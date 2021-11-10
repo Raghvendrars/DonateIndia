@@ -104,7 +104,7 @@ const Booksdonor = () => {
           {foodmenu ? (
             <div className="Menu-Wrap">
               <div className="Menu-Wrap-row row">
-                <div className="Menu-col col">
+                <div className="Menu-col col-xl-6 xol-sm-12">
                   <button onClick={showDonor} className="Menu-main-btn">
                     <h1 className="blood-all-icons">
                       <img src={Books} alt="images" />
@@ -112,7 +112,7 @@ const Booksdonor = () => {
                     <h4 className="mt-3">I'm Donor</h4>
                   </button>
                 </div>
-                <div className="Menu-col col">
+                <div className="Menu-col col-xl-6 xol-sm-12">
                   <a href="/books/booksdonate/findbooks">
                     <button className="Menu-main-btn">
                       <h1 className="blood-all-icons">
@@ -124,7 +124,7 @@ const Booksdonor = () => {
                 </div>
               </div>
               <div className="Menu-Wrap-row row">
-                <div className="Menu-col col">
+                <div className="Menu-col col-xl-6 xol-sm-12">
                   <button onClick={regiRest} className="Menu-main-btn">
                     <h1 className="blood-all-icons">
                       <VscOrganization className="Books-org-icon" size="100" />
@@ -132,7 +132,7 @@ const Booksdonor = () => {
                     <h4 className="mt-3">Organization</h4>
                   </button>
                 </div>
-                <div className="Menu-col col">
+                <div className="Menu-col col-xl-6 xol-sm-12">
                   <button onClick={regiVolunteer} className="Menu-main-btn">
                     <h1 className="blood-all-icons">
                       <img src={Foodimgfour} width="100" alt="images" />
