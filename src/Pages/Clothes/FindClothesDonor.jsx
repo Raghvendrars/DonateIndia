@@ -74,14 +74,14 @@ const FindBloodCamp = () => {
                     {options}
                   </select>
                 </div>
-                <div class="input-half-div ml-3 mb-2">
-                  <label for="exampleInputEmail1" class="form-label">
+                <div class="input-half-div ml-3 mb-2 mt-4">
+                  {/* <label for="exampleInputEmail1" class="form-label">
                     <h6>City</h6>
-                  </label>
+                  </label> */}
                   <input
                     type="submit"
                     value="Search"
-                    className="form-control"
+                    className="form-control mt-3 btn-success"
                   ></input>
                 </div>
               </form>
@@ -95,13 +95,13 @@ const FindBloodCamp = () => {
                 <tr>
                   <th>Sr</th>
                   <th>Name</th>
-                  <th>Gender</th>
-                  <th>Age</th>
-                  <th>Blood Group</th>
-                  <th>Mobile</th>
-                  <th>Email</th>
                   <th>Address</th>
-                  <th>Preference</th>
+                  <th>Phone</th>
+                  <th>Email</th>
+                  <th>Clothes For</th>
+                  <th>Clothes Type</th>
+                  <th>No Of Clothes</th>
+                  
                 </tr>
               </thead>
               <tbody>
@@ -113,10 +113,10 @@ const FindBloodCamp = () => {
                       <td>{anydata.Address}</td>
                       <td>{anydata.Phone}</td>
                       <td>{anydata.Email}</td>
-                      <td>{anydata.Age}</td>
-                      <td>{anydata.BloodGroup}</td>
-                      <td>{anydata.Gender}</td>
-                      <td>{anydata.Preference}</td>
+                      <td>{anydata.ClothesFor}</td>
+                      <td>{anydata.ClothesType}</td>
+                      <td>{anydata.NoOfClothes}</td>
+                      
                     </tr>
                   );
                 })}

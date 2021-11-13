@@ -25,7 +25,7 @@ const Footer = () => {
         </div>
         <div className="footer-row-col-four row col-xl-4 col-lg-4 col-md-6 col-sm-4">
           <div className="col-xl-6 col-lg-6 col col-md-6 col-sm-6 ">
-            <h6 className="mt-1">enquiry@donateindia.com</h6>
+            <h6 className="mt-1 text-white">enquiry@donateindia.com</h6>
           </div>
           <div className="footer-icons-col col col-xl-6 col-lg-6 col-md-6 col-sm-6">
             <a className="fb-icons" href="#">

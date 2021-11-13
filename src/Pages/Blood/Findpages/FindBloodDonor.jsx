@@ -1,6 +1,7 @@
 import React from "react";
 import "./FindBloodDonor.css";
 import "bootstrap/js/dist/dropdown";
+import Rdata from "./Rdata";
 import { useState, useEffect } from "react";
 import { getDonor } from "../../../Service/api";
 
@@ -82,14 +83,14 @@ const FindBloodDonor = () => {
                     {options}
                   </select>
                 </div>
-                <div class="input-half-div ml-3 mb-2">
-                  <label for="exampleInputEmail1" class="form-label">
+                <div class="input-half-div ml-3 mb-2 mt-4">
+                  {/* <label for="exampleInputEmail1" class="form-label">
                     <h6>City</h6>
-                  </label>
+                  </label> */}
                   <input
                     type="submit"
                     value="Search"
-                    className="form-control"
+                    className="form-control btn-success mt-3"
                   ></input>
                 </div>
               </form>
@@ -104,8 +105,6 @@ const FindBloodDonor = () => {
                   <th>Sr</th>
                   <th>Name</th>
                   <th>Address</th>
-                  <th>City</th>
-                  <th>State</th>
                   <th>Gender</th>
                   <th>Date of Birth</th>
                   <th>Blood Group</th>
@@ -115,19 +114,17 @@ const FindBloodDonor = () => {
                 </tr>
               </thead>
               <tbody>
-                {donors.map((anydata) => {
+                {Rdata.map((anydata) => {
                   return (
                     <tr className="receiver-data-tr">
-                      <td>{anydata.id}</td>
-                      <td>{anydata.name}</td>
-                      <td>{anydata.address}</td>
-                      <td>{anydata.city}</td>
-                      <td>{anydata.state}</td>
-                      <td>{anydata.gender}</td>
-                      <td>{anydata.dob}</td>
+                      <td>{anydata.Srno}</td>
+                      <td>{anydata.Name}</td>
+                      <td>{anydata.Address}</td>
+                      <td>{anydata.Gender}</td>
+                      <td>{anydata.DOB}</td>
                       <td>{anydata.bloodgroup}</td>
-                      <td>{anydata.phone}</td>
-                      <td>{anydata.email}</td>
+                      <td>{anydata.Phone}</td>
+                      <td>{anydata.Email}</td>
                       <td>{anydata.preference}</td>
                     </tr>
                   );

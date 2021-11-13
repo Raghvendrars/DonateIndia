@@ -1,6 +1,7 @@
 import React from "react";
 import "./FindFoodDonor.css";
 import "bootstrap/js/dist/dropdown";
+import Rdata from "./Rdata";
 import { useState, useEffect } from "react";
 import { getFoodDonor } from "../../Service/api";
 
@@ -82,14 +83,14 @@ const FindBloodDonor = () => {
                     {options}
                   </select>
                 </div>
-                <div class="input-half-div ml-3 mb-2">
-                  <label for="exampleInputEmail1" class="form-label">
+                <div class="input-half-div ml-3 mb-2 mt-4">
+                  {/* <label for="exampleInputEmail1" class="form-label">
                     <h6>City</h6>
-                  </label>
+                  </label> */}
                   <input
                     type="submit"
                     value="Search"
-                    className="form-control"
+                    className="form-control btn-success mt-3"
                   ></input>
                 </div>
               </form>
@@ -104,29 +105,29 @@ const FindBloodDonor = () => {
                   <th>Sr</th>
                   <th>Name</th>
                   <th>Address</th>
-                  <th>City</th>
+                  {/* <th>City</th> */}
                   <th>Mobile</th>
                   <th>Email</th>
-                  <th>Quantity</th>
+                  <th>Quantity For</th>
                   <th>Preparation Time</th>
                   <th>Best Before</th>
-                  <th>Type</th>
+                  
                 </tr>
               </thead>
               <tbody>
-                {foodDonor.map((anydata) => {
+                {Rdata.map((anydata) => {
                   return (
                     <tr className="receiver-data-tr">
                       <td>{anydata.Srno}</td>
                       <td>{anydata.Name}</td>
                       <td>{anydata.Address}</td>
-                      <td>{anydata.city}</td>
+                      {/* <td>{anydata.city}</td> */}
                       <td>{anydata.Phone}</td>
                       <td>{anydata.Email}</td>
-                      <td>{anydata.Quantity}</td>
-                      <td>{anydata.time}</td>
-                      <td>{anydata.expire}</td>
-                      <td>{anydata.type}</td>
+                      <td>{anydata.Quantityfor}</td>
+                      <td>{anydata.Preptime}</td>
+                      <td>{anydata.BestBefore}</td>
+                      {/* <td>{anydata.type}</td> */}
                     </tr>
                   );
                 })}

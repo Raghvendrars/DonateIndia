@@ -206,6 +206,20 @@ const Fooddonate = () => {
                         required
                       />
                     </div>
+                    <div class="input-half-div w-100 mb-3 ml-2">
+                      <label for="exampleInputEmail1" class="form-label">
+                        <h6>Food For</h6>
+                      </label>
+                      <input
+                        type="number"
+                        min="1"
+                        max="100"
+                        class="form-control"
+                        id="exampleInputEmail1"
+                        aria-describedby="emailHelp"
+                        required
+                      />
+                    </div>
                   </div>
                   <div className="Blood-form-input-half">
                     <div class="input-half-div w-100 mb-3">
@@ -220,7 +234,7 @@ const Fooddonate = () => {
                         required
                       />
                     </div>
-                    <div class="input-half-div mb-3">
+                    <div class="input-half-div mb-3 ml-2">
                       <label for="exampleInputEmail1" class="form-label">
                         <h6>Best Before</h6>
                       </label>

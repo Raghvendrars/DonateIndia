@@ -5,10 +5,10 @@ const Rdata = [
         Address: "Maninagar, Ahmedabad",
         Phone: "9574547152, 9106071308",
         Email: "Raghav26897@Gmail.com",
-        Age: "23",
-        BloodGroup: "AB+",
-        Gender:"Male",
-        Preference: "Only in Emergency"
+        Booksfor: "Adult",
+        BooksType: "Fiction",
+        Noofbooks:"5",
+        // Preference: "Only in Emergency"
     },
     {
         Srno: "2",
@@ -16,10 +16,9 @@ const Rdata = [
         Address: "Ranip, Ahmedabad",
         Phone: "9574547152, 9106071308",
         Email: "Prashant12@Gmail.com",
-        Age: "22",
-        BloodGroup: "B+",
-        Gender: "Male",
-        Preference: "Only in 3 Months"
+        Booksfor: "Adult",
+        BooksType: "Business",
+        Noofbooks:"7",
     },
     {
         Srno: "3",
@@ -27,10 +26,9 @@ const Rdata = [
         Address: "Vastra, Ahmedabad",
         Phone: "9106071308",
         Email: "Anshverma@Gmail.com",
-        Age: "22",
-        BloodGroup: "A+",
-        Gender: "Male",
-        Preference: "Only in Emergency"
+        Booksfor: "Adult",
+        BooksType: "Comptetive Exams",
+        Noofbooks:"3",
     },
     {
         Srno: "4",
@@ -38,10 +36,9 @@ const Rdata = [
         Address: "Maninagar, Ahmedabad",
         Phone: "9574547152",
         Email: "TanujDey@Gmail.com",
-        Age: "20",
-        BloodGroup: "AB+",
-        Gender: "Male",
-        Preference: "Only in Emergency"
+        Booksfor: "Kids",
+        BooksType: "Academics",
+        Noofbooks:"5",
     },
     {
         Srno: "5",
@@ -49,10 +46,9 @@ const Rdata = [
         Address: "Maninagar, Ahmedabad",
         Phone: "8596745412",
         Email: "KhyatiShah@Gmail.com",
-        Age: "21",
-        BloodGroup: "A+",
-        Gender: "Female",
-        Preference: "Only in Emergency"
+        Booksfor: "Adult",
+        BooksType: "Fiction",
+        Noofbooks:"5",
     },
     {
         Srno: "6",
@@ -60,10 +56,9 @@ const Rdata = [
         Address: "Maninagar, Ahmedabad",
         Phone: "9674852365",
         Email: "Raghav@Gmail.com",
-        Age: "22",
-        BloodGroup: "AB+",
-        Gender: "Male",
-        Preference: "Only in Emergency"
+        Booksfor: "Adult",
+        BooksType: "Adventure",
+        Noofbooks:"3",
     },
     {
         Srno: "7",
@@ -71,10 +66,9 @@ const Rdata = [
         Address: "Bodakdev, Ahmedabad",
         Phone: "7489657452",
         Email: "Raghav26897@Gmail.com",
-        Age: "22",
-        BloodGroup: "AB+",
-        Gender: "Male",
-        Preference: "Only in Emergency"
+        Booksfor: "Adult",
+        BooksType: "Non-Fictional",
+        Noofbooks:"4",
     },
     {
         Srno: "8",
@@ -82,10 +76,9 @@ const Rdata = [
         Address: "Ranip, Ahmedabad",
         Phone: "8965741256",
         Email: "Zeel7@Gmail.com",
-        Age: "23",
-        BloodGroup: "AB+",
-        Gender: "Male",
-        Preference: "Only in Emergency"
+        Booksfor: "Adult",
+        BooksType: "Business, Economics",
+        Noofbooks:"2",
     },
     {
         Srno: "9",
@@ -93,10 +86,9 @@ const Rdata = [
         Address: "University, Ahmedabad",
         Phone: "8745693547",
         Email: "Hemmu@Gmail.com",
-        Age: "22",
-        BloodGroup: "AB+",
-        Gender: "Male",
-        Preference: "Only in Emergency"
+        Booksfor: "Kids",
+        BooksType: "Action",
+        Noofbooks:"5",
     },
     {
         Srno: "10",
@@ -104,10 +96,9 @@ const Rdata = [
         Address: "Bapunagar, Ahmedabad",
         Phone: "8965745126",
         Email: "Abhishek@Gmail.com",
-        Age: "22",
-        BloodGroup: "AB+",
-        Gender: "Male",
-        Preference: "Only in Emergency"
+        Booksfor: "Adult",
+        BooksType: "Academics",
+        Noofbooks:"10",
     },
 ];
 

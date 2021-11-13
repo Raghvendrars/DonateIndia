@@ -74,9 +74,9 @@ const Findbooks = () => {
                     {options}
                   </select>
                 </div>
-                <div class="input-half-div ml-3 mb-2">
-                    <label for="exampleInputEmail1" class="form-label"><h6>City</h6></label>
-                  <input type="submit" value="Search" className="form-control">
+                <div class="input-half-div ml-3 mb-2 mt-4">
+                    {/* <label for="exampleInputEmail1" class="form-label"><h6>City</h6></label> */}
+                  <input type="submit" value="Search" className="form-control mt-3 btn-success">
                     
                   </input>
                 </div>
@@ -91,13 +91,13 @@ const Findbooks = () => {
                 <tr>
                   <th>Sr</th>
                   <th>Name</th>
-                  <th>Gender</th>
-                  <th>Age</th>
-                  <th>Blood Group</th>
-                  <th>Mobile</th>
-                  <th>Email</th>
                   <th>Address</th>
-                  <th>Preference</th>
+                  <th>Mobile No</th>
+                  <th>Email</th>
+                  <th>Books For</th>
+                  <th>Books Type</th>
+                  <th>No Of Books</th>
+                  {/* <th>Preference</th> */}
                 </tr>
               </thead>
               <tbody>
@@ -109,10 +109,10 @@ const Findbooks = () => {
                       <td>{anydata.Address}</td>
                       <td>{anydata.Phone}</td>
                       <td>{anydata.Email}</td>
-                      <td>{anydata.Age}</td>
-                      <td>{anydata.BloodGroup}</td>
-                      <td>{anydata.Gender}</td>
-                      <td>{anydata.Preference}</td>
+                      <td>{anydata.Booksfor}</td>
+                      <td>{anydata.BooksType}</td>
+                      <td>{anydata.Noofbooks}</td>
+                      {/* <td>{anydata.Preference}</td> */}
                     </tr>
                   );
                 })}

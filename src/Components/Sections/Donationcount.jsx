@@ -29,18 +29,18 @@ const Donationcount = () => {
               </h6>
             </div>
             <div className="donation-count-col-two-rowthree row">
-              <div className="donation-count-card ml-2">
+              <div className="donation-count-card">
                 <h1 className="text-warning">
                   <FaRupeeSign size={45} />
                   50K
                 </h1>
                 <h6 className="text-warning">Raised</h6>
               </div>
-              <div className="donation-count-card ml-2">
+              <div className="donation-count-card">
                 <h1>300+</h1>
                 <h6>Volunteers</h6>
               </div>
-              <div className="donation-count-card ml-2">
+              <div className="donation-count-card">
                 <h1>200+</h1>
                 <h6>Organizations</h6>
               </div>

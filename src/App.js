@@ -60,13 +60,13 @@ function App() {
             path="/food/fooddonate/findfood"
             component={FindFoodDonor}
           />
-          <Route exact path="/food/fooddonate">
-            {localStorage.getItem("login") ? (
+          <Route exact path="/food/fooddonate" component={Fooddonate} />
+            {/* {localStorage.getItem("login") ? (
               <Fooddonate />
             ) : (
               <Login setLoginUser={setLoginUser} />
             )}
-          </Route>
+          </Route> */}
           {/* Clothes */}
           <Route exact path="/clothes/clothesdonate" component={Clothesdonor} />
           <Route
@@ -75,13 +75,13 @@ function App() {
             component={Findclothes}
           />
           {/* blood */}
-          <Route exact path="/blood/blooddonate">
-            {localStorage.getItem("login") ? (
+          <Route exact path="/blood/blooddonate" component={Blooddonate} />
+            {/* {localStorage.getItem("login") ? (
               <Blooddonate />
             ) : (
               <Login setLoginUser={setLoginUser} />
             )}
-          </Route>
+          </Route> */}
           <Route
             exact
             path="/blood/blooddonate/findblooddonor"
