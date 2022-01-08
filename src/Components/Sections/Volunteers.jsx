@@ -41,7 +41,7 @@ const Volunteers = () => {
                 <div>
                   <h4 className="volunteers-card-header-text">
                     <AiOutlineMinus />
-                    Raghvendra Singh, Developer
+                    Tanuj Dey, Developer
                   </h4>
                 </div>
               </div>
@@ -64,7 +64,7 @@ const Volunteers = () => {
                 <div>
                   <h4 className="volunteers-card-header-text">
                     <AiOutlineMinus />
-                    Raghvendra Singh, Developer
+                    Khyati Shah, Developer
                   </h4>
                 </div>
               </div>

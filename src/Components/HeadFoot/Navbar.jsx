@@ -61,7 +61,7 @@ const Navbar = () => {
                     <button className="btn navbar-btns">How it Works</button>
                   </a>
                 </li>
-                {localStorage.getItem("login") ? (
+                {/* {localStorage.getItem("login") ? (
                   <li className="nav-menu-li">
                     <a href="/">
                       <button
@@ -72,13 +72,13 @@ const Navbar = () => {
                       </button>
                     </a>
                   </li>
-                ) : (
+                ) : ( */}
                   <li className="nav-menu-li">
                     <a href="/Login">
                       <button className="btn navbar-btns">Login</button>
                     </a>
                   </li>
-                )}
+                {/* )} */}
               </ul>
             </div>
           </div>
