@@ -34,6 +34,7 @@
     "react-scripts": "^1.1.5",
     "react-scroll": "^1.8.4",
     "styled-components": "^5.3.3",
+    "validator": "^13.7.0",
     "watchpack": "^2.3.1",
     "web-vitals": "^1.1.2",
     "yup": "^0.32.11"
